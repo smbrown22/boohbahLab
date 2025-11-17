@@ -1,7 +1,7 @@
 Question One - 
 - There is a error when grouping by boohbah_id, and there needs to be a subquery for the avg(sync_level). By making it a nested function and changing 'group by' to 'order by', it fulfills the original purpose. 
 Question Two - 
-- 
+- Question Two is correct already, I don't think anything needs to be changed here. 
 Question Three - 
 - There is an invalid identifier error in the query. "boohbah_name" is not the correct column name, changing it to "name" works. 
 Question Four - 
@@ -9,11 +9,12 @@ Question Four -
 Question Five - 
 - This retrieves the correct information with no error, I couldn't find anything wrong with it. 
 Question Six - 
-- 
+- Since the function is meant to be single, we need to make it a group function. We can use the all keyword in order to do that. 
 Question Seven - 
 - Retrieved all stands instead of the stands that matched boohbah_id to stand_id. By adding an 'and boohbah_id = stand_id" we get the correct answer instead of every possible answer.
 Question Eight - 
 - There is a group function where there shouldn't be. By making it a nested query it is fixed. 
 Question Nine - 
-- 
+- Making sure that the functions are in order every time they are called. 
 Question Ten - 
+- Can't find error 
